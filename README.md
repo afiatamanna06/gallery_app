@@ -32,6 +32,7 @@ In the output, you'll find options to open the app in a
 - **expo-router** for navigation
 - **reduxjs/toolkit** for state management
 - **react-native-toast-message** for toast showing
+- **axios** for data fetching
 - **Typescript** for type safety
 
 ## Requirements Fulfilled
@@ -40,10 +41,17 @@ Requirements for this project
 
 - [x] Setup React Native project using expo
 - [x] Add Typescript, Tailwind CSS, Gluestack UI and other dependencies
-- [x] Implement a search bar for searching title
-- [x] Implement table along with weather condition icons 
-- [x] Fetch data from the given API using fetch function
-- [x] Show fetched weather information correctly in that table along with previously searched results
+- [x] Implement a search bar for searching titles, albums
+- [x] Use the Redux Toolkit to manage the app's state 
+- [x] Fetch data from the given API using axios get function
+- [x] Handle actions to fetch, display, and potentially cache images for offline viewing
+- [x] Display a list of images using the thumbnail URL for the Gallery Screen and the full image URL for the Detail Screen
+- [x] Tapping on a thumbnail navigates to the Image Detail Screen.
+- [x] Show a larger version of the image and display the image title and any other relevant metadata
+- [x] Include a back button to return to the Gallery Screen
+- [x] Implement lazy loading of images as the user scrolls
+- [x] Use caching strategies to store images for offline access
+- [x] Add delete functions to delete albums and images 
 - [x] Add error handling by using toast
 - [x] Add overall responsiveness
 
