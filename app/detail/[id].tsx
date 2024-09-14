@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "@/redux/store";
 import { Button, ButtonText } from "@/components/ui/button";
 import { Image } from "@/components/ui/image";
-import { ScrollView, Text, View } from "react-native";
+import { ScrollView, StyleSheet, Text, View } from "react-native";
 import Toast from "react-native-toast-message";
 
 const DetailScreen = () => {
@@ -27,7 +27,7 @@ const DetailScreen = () => {
 
   return (
     <View className="flex-1 bg-white">
-      <ScrollView contentContainerStyle={{ paddingBottom: 80 }}>
+      <ScrollView contentContainerStyle={styles.scrollview}>
         <View className="flex flex-row justify-center">
           <Image
             source={{ uri: image.url }}
@@ -57,5 +57,9 @@ const DetailScreen = () => {
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  scrollview: { paddingBottom: 80 },
+});
 
 export default DetailScreen;
