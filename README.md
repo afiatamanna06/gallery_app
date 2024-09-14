@@ -1,6 +1,6 @@
-# Welcome to your Expo app 👋
+# Gallery-App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Gallery App is built to show images like a photo gallery. It's an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
 
@@ -23,7 +23,29 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## The technologies used to create this project are
+
+- **React Native**
+- **Expo**
+- **TailwindCSS** for styling
+- **gluestack-ui** for UI components
+- **expo-router** for navigation
+- **reduxjs/toolkit** for state management
+- **react-native-toast-message** for toast showing
+- **Typescript** for type safety
+
+## Requirements Fulfilled
+
+Requirements for this project
+
+- [x] Setup React Native project using expo
+- [x] Add Typescript, Tailwind CSS, Gluestack UI and other dependencies
+- [x] Implement a search bar for searching title
+- [x] Implement table along with weather condition icons 
+- [x] Fetch data from the given API using fetch function
+- [x] Show fetched weather information correctly in that table along with previously searched results
+- [x] Add error handling by using toast
+- [x] Add overall responsiveness
 
 ## ScreenShots
 Gallery Screen 
